@@ -1,0 +1,6 @@
+CREATE TABLE PESSOA(
+    ID BIGINT primary key AUTO_INCREMENT,
+    NOME VARCHAR(255),
+    IDADE INT,
+    CPF varchar(14)
+);
